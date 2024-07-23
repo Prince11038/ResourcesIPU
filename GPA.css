@@ -1,0 +1,17 @@
+.cointainer2{
+    line-height: 1.7em;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+.container1{
+    display: flex;
+    justify-content: space-between ;
+}

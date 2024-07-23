@@ -1,0 +1,73 @@
+.cards5 {
+    /*card section of Branches for creating 2 column*/
+    padding-top: 4%;
+    padding-bottom: 4%;
+    justify-content: space-around;
+    display: flex;
+}
+
+.cardin {
+    /* card section for creating card base */
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #e9a7e0;
+    height: 350px;
+    width: auto;
+}
+
+.body1 {
+    /* card section for creating card inside section  */
+    height: 90%;
+    position: relative;
+    /* Enable relative positioning for layering */
+    padding: 15px;
+    border-radius: 10px 100px / 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: hsla(232, 73%, 65%, 1);
+
+    background: linear-gradient(90deg, hsla(232, 73%, 65%, 1) 0%, hsla(279, 33%, 48%, 1) 100%);
+    
+    background: -moz-linear-gradient(90deg, hsla(232, 73%, 65%, 1) 0%, hsla(279, 33%, 48%, 1) 100%);
+    
+    background: -webkit-linear-gradient(90deg, hsla(232, 73%, 65%, 1) 0%, hsla(279, 33%, 48%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#6274E7", endColorstr="#8752A3", GradientType=1 );;
+    /* Your desired default color */
+    transition: transform 0.2s ease-in-out;
+    /* Transition for hover effect */
+}
+
+.background-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    font-size: large;
+}
+
+.btnbtm {
+    margin-bottom: 0.5rem;
+}
+
+body {
+    background: hsla(284, 80%, 10%, 1);
+
+    background: linear-gradient(90deg, hsla(284, 80%, 10%, 1) 30%, hsla(290, 25%, 76%, 1) 100%);
+    
+    background: -moz-linear-gradient(90deg, hsla(284, 80%, 10%, 1) 30%, hsla(290, 25%, 76%, 1) 100%);
+    
+    background: -webkit-linear-gradient(90deg, hsla(284, 80%, 10%, 1) 30%, hsla(290, 25%, 76%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#22052d", endColorstr="#ccb3d1", GradientType=1 );
+}
+
+.body1:hover {
+    position: relative;
+    /* Enables relative positioning for transform */
+    transform: translateY(-10%);
+    /* Move the card-body up 5px on hover */
+    background-color: #1a5e63;
+    /* Red background on hover (optional) */
+}

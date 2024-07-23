@@ -1,0 +1,78 @@
+body {
+    background: hsla(284, 80%, 10%, 1);
+
+    background: linear-gradient(90deg, hsla(284, 80%, 10%, 1) 30%, hsla(290, 25%, 76%, 1) 100%);
+    
+    background: -moz-linear-gradient(90deg, hsla(284, 80%, 10%, 1) 30%, hsla(290, 25%, 76%, 1) 100%);
+    
+    background: -webkit-linear-gradient(90deg, hsla(284, 80%, 10%, 1) 30%, hsla(290, 25%, 76%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#22052d", endColorstr="#ccb3d1", GradientType=1 );
+}
+
+.cards1 {
+    padding-top: 4%;
+    padding-bottom: 4%;
+    justify-content: space-around;
+    display: flex;
+}
+
+
+.card {
+    background-color: rgb(61, 59, 59);
+    color: white;
+    border: 2px solid #fbac23;
+}
+
+.navbar {
+    background-color: #2E2E2E;
+
+}
+
+
+.butncont {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 0%;
+    padding-right: 0%;
+
+}
+
+.btn {
+    border-radius: 8px;
+    margin: 0.5%;
+}
+
+.footer {
+    background-color: #2E2E2E;
+}
+
+.btnbtm {
+
+    border-radius: 30px;
+
+    width: 50%;
+    bottom: 0%;
+}
+
+.cardin{
+    border-radius: 50px;
+    margin: 4%;
+    padding: 2%;
+    background-color: rgb(61, 59, 59);
+    color: white;
+    border: 2px solid #fbac23;
+    margin: %;
+    
+}
+
+.card2{
+    border-bottom: solid white;
+    padding-bottom: 1%;
+}
+
+
+
+*{
+    color:
+}
