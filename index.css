@@ -45,6 +45,7 @@ body {
 
 .footer {
     background-color: #2E2E2E;
+    border-radius: 30px;
 }
 
 .btnbtm {
@@ -71,8 +72,3 @@ body {
     padding-bottom: 1%;
 }
 
-
-
-*{
-    color:
-}
