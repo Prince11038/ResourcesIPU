@@ -2,12 +2,12 @@ body {
     background: hsla(284, 80%, 10%, 1);
 
     background: linear-gradient(90deg, hsla(284, 80%, 10%, 1) 30%, hsla(290, 25%, 76%, 1) 100%);
-    
+
     background: -moz-linear-gradient(90deg, hsla(284, 80%, 10%, 1) 30%, hsla(290, 25%, 76%, 1) 100%);
-    
+
     background: -webkit-linear-gradient(90deg, hsla(284, 80%, 10%, 1) 30%, hsla(290, 25%, 76%, 1) 100%);
-    
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#22052d", endColorstr="#ccb3d1", GradientType=1 );
+
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#22052d", endColorstr="#ccb3d1", GradientType=1);
 }
 
 .cards1 {
@@ -56,7 +56,7 @@ body {
     bottom: 0%;
 }
 
-.cardin{
+.cardin {
     border-radius: 50px;
     margin: 4%;
     padding: 2%;
@@ -64,11 +64,24 @@ body {
     color: white;
     border: 2px solid #fbac23;
     margin: %;
-    
+
 }
 
-.card2{
+.card2 {
     border-bottom: solid white;
     padding-bottom: 1%;
 }
 
+@media (max-width: 500px) {
+    .cards1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card {
+        margin: 5%;
+    }
+
+}

@@ -67,3 +67,12 @@ body {
 .btn-secondary:hover{
     background-color: rgb(46, 127, 165);
 }
+
+@media (max-width: 500px) {
+    .cards5 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    } 
+}

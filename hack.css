@@ -2,16 +2,13 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
     color: #ffffff;
-    margin: 0;
-    padding: 20px;
 }
 
 .container1 {
-    margin: 5px;
     max-width: 900px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #1f1f1f;
+    background-color: #8f61aa77;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
 }
@@ -23,7 +20,7 @@ header {
 
 header h1 {
     font-size: 2.5em;
-    color: #ff6347;
+    color:white;
 }
 
 .event {
@@ -55,7 +52,7 @@ header h1 {
     padding: 10px 20px;
     font-size: 1em;
     color: #fff;
-    background-color: #ff6347;
+    background-color: #246307;
     border: none;
     border-radius: 5px;
     text-decoration: none;
