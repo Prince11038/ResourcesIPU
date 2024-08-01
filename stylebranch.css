@@ -44,15 +44,15 @@
 }
 
 body {
-    background: hsla(284, 80%, 10%, 1);
+    background: hsla(282, 36%, 25%, 1);
 
-    background: linear-gradient(90deg, hsla(284, 80%, 10%, 1) 30%, hsla(290, 25%, 76%, 1) 100%);
+    background: radial-gradient(circle, hsla(282, 36%, 25%, 1) 0%, hsla(310, 22%, 37%, 1) 100%);
 
-    background: -moz-linear-gradient(90deg, hsla(284, 80%, 10%, 1) 30%, hsla(290, 25%, 76%, 1) 100%);
+    background: -moz-radial-gradient(circle, hsla(282, 36%, 25%, 1) 0%, hsla(310, 22%, 37%, 1) 100%);
 
-    background: -webkit-linear-gradient(90deg, hsla(284, 80%, 10%, 1) 30%, hsla(290, 25%, 76%, 1) 100%);
+    background: -webkit-radial-gradient(circle, hsla(282, 36%, 25%, 1) 0%, hsla(310, 22%, 37%, 1) 100%);
 
-    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#22052d", endColorstr="#ccb3d1", GradientType=1);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#492957", endColorstr="#744A6D", GradientType=1);
 }
 
 .body1:hover {
@@ -64,15 +64,15 @@ body {
     /* Red background on hover (optional) */
 }
 
-.btn-secondary:hover{
+.btn-secondary:hover {
     background-color: rgb(46, 127, 165);
 }
 
-@media (max-width: 500px) {
+@media (max-width: 650px) {
     .cards5 {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    } 
+    }
 }
