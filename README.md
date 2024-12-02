@@ -2,16 +2,11 @@
 
 GGSIPU EDC College Resources Website<br>
 
-
 Overview<br>
-
 
 This repository houses the code for a responsive college resources website tailored for GGSIPU EDC students. The platform offers a centralized hub for accessing essential academic information and resources.<br>
 
-
-
 Key Features<br>
-
 
 
 GPA Calculator: Calculate Semester Grade Point Average (SGPA) based on user-inputted course details.<br>
@@ -36,15 +31,3 @@ HTML: The markup language used to structure the content and layout of the web pa
 CSS: Cascading Style Sheets are responsible for styling the website's visual elements, including fonts, colors, and layout.
 JavaScript: This scripting language adds interactivity and dynamic behavior to the website.
 Contributing
-
-We would like to encourage contributions to enhance the website. Please follow these steps:<br>
-
-Fork the repository.<br>
-Create a new branch for your feature or bug fix.<br>
-Commit your changes.<br>
-Push to your branch.<br>
-Submit a pull request.<br>
-
-Acknowledgments
-
-Bootstrap Framework
