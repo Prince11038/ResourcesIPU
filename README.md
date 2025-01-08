@@ -17,14 +17,6 @@ Placements: Details on placement opportunities, eligibility criteria, and prepar
 Contact Us: A platform for students to connect and provide feedback.<br>
 About Us: Information regarding the website's development team.<br>
 
-Team Members
-<br>
-
-Prince Kumar Singh<br>
-Poonam Kumari<br>
-Amira<br>
-Satyam Parida<br>
-
 Technology Stack
 
 HTML: The markup language used to structure the content and layout of the web pages.
